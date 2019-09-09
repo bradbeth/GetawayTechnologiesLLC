@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gat"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="For all your RV travel planning needs" />
+
+    <TextView
+        android:id="@+id/proprietors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:layout_above="@id/address"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="Brad/Beth Blankenship, Proprietors"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="15203 S. 23rd St, Great Falls, MT 59401"/>
+
+</RelativeLayout>
